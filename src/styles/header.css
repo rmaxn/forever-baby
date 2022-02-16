@@ -56,10 +56,11 @@ form input {
     text-align: left;
 }
 
-#profileIcon, #cartIcon {
+#userButtons {
     background-color: #F5717F;
-    border-radius: 36px;
-    padding: 10px;
+    border: none;
+    width: 42px;
+    height: 42px;
 }
 
 #profileIcon {

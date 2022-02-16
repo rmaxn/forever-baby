@@ -19,16 +19,19 @@ export default class Header extends React.Component {
                         BUSCAR
                     </button>
                 </form>
-                <img
-                    src= { profileIcon }
-                    alt="profile button"
-                    id="profileIcon"
-                />
-                <img
-                    src= { cartIcon }
-                    alt="cart button"
-                    id="cartIcon"
-                />
+                <button id="userButtons">
+                    <img
+                        src= { profileIcon }
+                        alt="profile button"
+                        id="profileIcon"
+                    />
+                </button> 
+                <button id="userButtons">
+                    <img
+                        src= { cartIcon }
+                        alt="cart button"
+                    />
+                </button>
             </div>
         )
     }
