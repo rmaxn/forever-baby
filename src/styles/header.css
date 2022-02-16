@@ -6,10 +6,14 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #F7B094;
+    height: 134px;
 }
 
 #logo {
+    margin-left: 29px;
     margin-top: 29px;
+    height: 85.54px;
+    width: 160px;
 }
 
 form {
@@ -22,6 +26,8 @@ form {
     border-radius: 3px;   
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 56%;
 }
 
 form input, #searchButton {
@@ -59,13 +65,37 @@ form input {
 #userButtons {
     background-color: #F5717F;
     border: none;
-    width: 42px;
+    border-radius: 40px;
+    margin-top: 45px;
+    margin-bottom: 3px;
     height: 42px;
+    width: 42px;
 }
 
 #profileIcon {
     height: 20.58px;
     width: 14.91px;
+}
+
+.userSection {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 53px;
+    width: 150px;
+}
+
+.userSection div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 input::-webkit-input-placeholder {
